@@ -18,4 +18,3 @@ steps:
   inputs:
     arguments: main.c
 
-  displayName: 'make'
