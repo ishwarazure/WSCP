@@ -12,5 +12,10 @@ pool:
 steps:
 - script: |
     gcc
+  
+- task: gcc
+  displayName: 'Build C application'
+  inputs:
     arguments: main.c
+
   displayName: 'make'
